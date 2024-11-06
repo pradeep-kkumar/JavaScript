@@ -21,3 +21,44 @@ let otherName = new String("Other name is Pradeep");
 console.log(otherName)
 console.log(typeof otherName) // the data type of this String is Object type
 
+// len :- Lenght
+
+let txt1 = "Hello, JavaScript"
+
+console.log(txt1.length)
+
+// charAt() :- It provides the char value present at the specified index.
+
+let txt2 = "Hello, My name is Pradeep"
+
+console.log(txt2.charAt(2))
+
+// charCodeAt() :- It provides the Unicode value of a character present at the specified index.
+
+console.log(txt2.charCodeAt(3))
+
+// concat() :- It provides a combination of two or more strings.
+
+let str1 = "Hello"
+let str2 = " Node.js"
+
+console.log(str1.concat(str2))
+
+
+// indexOf() :- It provides the position of a char value present in the given string.
+
+console.log(txt2.indexOf("o"))
+
+// lastIndexOf() :- It provides the position of a char value present in the given string by searching a character from the last position.
+
+console.log(txt2, " :- ", txt2.lastIndexOf("e"))
+
+// search() :- It searches a specified regular expression in a given string and returns its position if a match occurs.
+
+let str3 = "JavaScript is an OOP programming language"
+
+console.log(str3.search("is"))
+
+// match() :- It searches a specified regular expression in a given string and returns that regular expression if a match occurs.
+
+let 
