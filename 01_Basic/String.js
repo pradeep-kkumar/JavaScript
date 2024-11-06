@@ -61,4 +61,15 @@ console.log(str3.search("is"))
 
 // match() :- It searches a specified regular expression in a given string and returns that regular expression if a match occurs.
 
-let 
+console.log(str3.match("OPP"))
+console.log(str3.match("OOP"))
+
+// replace() :- It replaces a given string with the specified replacement.
+
+console.log(str3.replace("OOP", "Object Orianted"))
+
+// substr() :- It is used to fetch the part of the given string on the basis of the specified starting position and length.
+
+let subStr = "programming"
+
+console.log()
